@@ -1,0 +1,17 @@
+{
+    "assets": [
+        {
+            "asset_mss": "FSX5E",
+            "asset_tt": "FESX Sep24",
+            "freq": "1"
+        }
+    ],
+    "redis": {
+        "host": "localhost",
+        "port": 7000,
+        "db": 0,
+        "book_channel": "live_orderbook",
+        "trade_channel": "live_trade"
+    },
+    "model_cnf": "/model_config.json"
+}

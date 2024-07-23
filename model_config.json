@@ -1,0 +1,28 @@
+{
+    "data_folder":"data",
+    "model_folder":"ols_model",
+    "data_check_plot_folder":"data_check_plots",
+    "final_model_output_folder":"model_output",
+    "seasonal_model_output_folder":"seasonal_model_output",
+
+    "historic":{
+        "start_date"  : "20240101", 
+        "host" : "172.16.40.24",
+        "port" : 10443,
+        "start_time":"10:00:00",
+        "end_time":"19:00:00",
+        "freq" : 1,
+        "ewm_span": 2,
+        "seasonality_period":20,
+        "spline_k" : 5,
+        "spline_s" : 1
+    },
+    
+    "intraday":{
+        "vol_window":"5T",
+        "ewm_span":[5,20],
+        "start_time":"10:20:00",
+        "end_time":"19:00:00",
+        "outlier_qtl":0.99
+    }
+}
